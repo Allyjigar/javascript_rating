@@ -1,0 +1,24 @@
+.container-fluid{
+    min-height: 100vh;
+}
+.estrellas a {
+    opacity: 50%;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.estrellas:hover a {
+    opacity: 100%;
+}
+
+.estrellas a:hover {
+    opacity: 100%;
+}
+
+.estrellas a:hover ~ a {
+    opacity: 50%;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
